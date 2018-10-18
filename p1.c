@@ -6,5 +6,5 @@ int h(void* buf, size_t len) {
         val = val*256 + (int)byte_value;
     } 
 
-    return val%len;
+    return val;
 }
